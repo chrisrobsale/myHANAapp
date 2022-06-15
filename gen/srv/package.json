@@ -11,8 +11,7 @@
     "hdb": "^0.18.3"
   },
   "scripts": {
-    "start": "cds run",
-    "watch-interaction_items": "cds watch --open interaction_items/webapp/index.html?sap-ui-xx-viewCache=false"
+    "start": "cds run"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -60,10 +59,7 @@
       }
     }
   },
-  "sapux": [
-    "app/interaction_items"
-  ],
-  "devDependencies": {
-    "@sap/ux-specification": "^1.100.4"
+  "engines": {
+    "node": ">=12.18"
   }
 }
